@@ -14,8 +14,11 @@ You will access your website in a browser using the unique CloudFront endpoint.
 
 Website urls:
 https://dstnrteiat4y.cloudfront.net/index.html
+
 http://aryapvy-aws.s3-website.us-east-1.amazonaws.com/
+
 http://aryapvy-aws.s3.amazonaws.com/index.html
+
 
 NB: Screenshots are taken after all steps have been completed
 
