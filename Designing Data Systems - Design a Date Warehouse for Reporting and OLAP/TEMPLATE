@@ -1,0 +1,110 @@
+[Make a copy of this document]
+Submission Document - Design a Data Warehouse for Reporting and OLAP
+Please include all of the required screenshots and SQL queries in this document. Resize the images as necessary to ensure the texts are readable.
+
+A. Staging
+1. Data architecture diagram showing all 8 files pointing to staging database to Operational Data Store (ODS) to Data Warehouse (DWH) to Reporting
+You may create the diagram in Lucid.app, Draw.io, or similar services online.
+
+ 2. Screenshot showing the tables in the staging schema after extracting 6 Yelp files
+The screenshot should have 6 tables with the correct respective row counts.
+
+ 
+3. Screenshot showing the tables after extracting 2 files into the staging schema
+The screenshot should have two tables - temperature and precipitation.
+ 
+B. Operational Data Store (ODS)
+1. ER diagram that includes one-to-one and one-to-many relationships for tables: Business, Customer, Tips, Review, Precipitation, Covid, Check_in, Temperature
+
+ 2. SQL queries that transform staging to ODS
+ 
+3. Screenshot showing the queries were used successfully to transform the staging data to ODS
+
+ 
+
+ 
+ 
+ 
+
+
+4. SQL queries that use JSON functions to transform staging data from a single JSON structure into multiple columns for ODS
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+5. Screenshot showing the queries were used successfully to transform staging data from a single JSON structure into multiple columns for ODS
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+6. Screenshot showing different sizes/row_counts of raw, staging, and ODS tables in databasE
+ 
+Raw:
+ 
+ 
+ 
+
+
+Staging:
+ 
+ODS:
+ 
+
+7. SQL queries that integrate the climate and Yelp datasets
+
+ 
+ 
+ 
+8. Screenshot showing evidence that the SQL queries managed to integrate the datasets
+
+ 
+C. Data Warehouse (DWH)
+1. Diagram of star schema with several dimensions and a fact table that connects dimensions
+
+ 
+2. SQL queries that moves the data from ODS to DWH
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3. Screenshot showing evidence that the SQL queries managed to move the data from ODS to DWH
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4. SQL queries that produce a report showing the business name, temperature, precipitation, and ratings
+
+ 
+5. Screenshot showing the report produced by the SQL queries above
+
+ 
